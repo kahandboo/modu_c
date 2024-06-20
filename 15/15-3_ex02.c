@@ -5,12 +5,12 @@ int main(){
     char str1[100];
     char str2[100];
 
-    printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    printf("ë¬¸ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
     scanf("%s", str1);
 
     change(str1, str2);
 
-    printf("´ë¼Ò¹®ÀÚ º¯°æ °á°ú : %s",str2);
+    printf("ëŒ€ì†Œë¬¸ì ë³€ê²½ ê²°ê³¼ : %s",str2);
     return 0;
 }
 int change(char *str1,char *str2){
